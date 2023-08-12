@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.active{
+    @apply border-blue-500 text-blue-600 transition-all ease-in
+}
+
+.nav-li{
+    @apply hover:text-blue-600 border-t-4 transition-colors ease-linear py-4 hover:border-blue-500 px-5 cursor-pointer
+}
+
+.ql-editor  img{
+
+    float: left;
+    display: inline;
+}
+
+.ql-editor{
+    text-align: justify;
+}
+
+.preview h1 {
+    font: bold;
+    font-size: 30px;
+}
+
+.preview img{
+    float: left;
+    display: inline;
+    margin: 10px;
+}
+
+.preview{
+    text-align: justify;
+    word-break: break-all;
+}
+
+.preview h2{
+    font: bold;
+    font-size: 27px;
+}
+
+.preview li {
+    list-style: disc;
+    margin: 20px;
+}
+
+.singleblog li {
+    list-style: disc;
+    margin: 20px;
+}
+
+.singleblog h1 {
+    font: bolder;
+    font-size: 30px;
+}
+
+.singleblog h2{
+    font: bold;
+    font-size: 27px;
+}
+
+.singleblog {
+    text-align: justify;
+    word-break: break-all;
+}
+
